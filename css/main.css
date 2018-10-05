@@ -1,0 +1,27 @@
+.bor-r {
+    border-right: 1px #ccc solid;
+}
+.btn-get {
+    background-image: linear-gradient(to right, red , yellow);
+    border-radius: 5px;
+}
+.wrap {
+    width: 800px;
+    height: auto;
+}
+.footer {
+    height: 350px;
+}
+.menu > input[type="checkbox"] {
+    display: none;
+}
+.menu > input[type="checkbox"]:checked ~.menu-items-container{
+    opacity: 1;
+}
+.menu > lablel {
+    cursor: pointer;
+}
+.menu > lable~.menu-items-container{
+    opacity: 0;
+    will-change: opacity;
+}
